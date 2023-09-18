@@ -4,7 +4,7 @@ import requests
 #매장정보가 담긴 csv명이 stores.csv일 경우
 df = pd.read_csv('stores.csv', encoding='cp949')
 
-kakao_key = "f3b121a900d2f12872ba8c70acff4995"
+kakao_key = "f3b-----------"
 
 def get_coordinates(address):
     url = f"https://dapi.kakao.com/v2/local/search/address.json?query={address}"
